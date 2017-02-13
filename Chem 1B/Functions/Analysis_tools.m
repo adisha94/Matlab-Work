@@ -1,3 +1,4 @@
+% function tools not working for some reason
 function[result] = Accuracy(accepted, acquired)
 temp = ((accepted - acquired)/accepted) * 100;
 result = temp;
@@ -14,7 +15,7 @@ M = moles / Volume;
 end
 
 function[M] = Molality(moles, Kg)
-%This function quickly helps to calculate the molarity for calculations
+%This function quickly helps to calculate the molality for calculations
 M = moles / Kg;
 end
 
