@@ -3,9 +3,8 @@
 Vol_NaOH = 12.80; % ml
 Vol_Unknown = 15.00; % ml
 accepted = 0.2542;
-
-tic
 %% Pre lab for Expiremnet
+tic
 disp('Expirement 16 Pre-lab')
 disp('----------------------')
 disp(' ')
@@ -31,14 +30,12 @@ student_runs = [0.2451 0.2668 0.2549 0.2554];
 disp('a.')
 average_runs = mean(student_runs)
 disp('b.')
-temp = 0;
-for i = 1:4
-    temp(i) = (student_runs(i) / average_runs);
-end
-clear temp
-
-%disp('c.')
+Accuracy(0.2542,average_runs)
+disp('c.')
+Spread_analysis(max(student_runs),min(student_runs),average_runs)
+disp('d.')
+disp('this was cleared through externals')
 toc
 %% Actual Expirement
-disp('Expirement 16')
-% NaOH_grams = 4.00 
+%disp('Expirement 16')
+% NaOH_grams = 4.00
