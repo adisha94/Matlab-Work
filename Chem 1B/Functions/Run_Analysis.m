@@ -7,11 +7,13 @@ clear PHPhthalate_MW
 disp('Funcion still not completely ready yet. Insert more information for us to use in our calculations.')
 
 % Oxalic acid
-disp('Number of millimoles of oxalic acid')
+disp('# of millimoles of oxalic acid')
 % 4 significant figures
 %g --> moles --> millimole
+disp('1.)')
 mmol_OxalAcid = run_Value * (1/oxalic_acid_MW) * (1000/1)
-disp('Number of millimoles of H+ ions in diprotic solution of solute')
+disp('2.)')
+disp('#of millimoles of H+ ions in diprotic solution of solute')
 mmol_H_Ions = 2*mmol_OxalAcid; % mmols
 
 end
