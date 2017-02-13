@@ -9,4 +9,4 @@ Storage
 %disp('Expirement 16')
 % NaOH_grams = 4.00
 NaOH_pellet_mass = input('What was the mass of the pellets?');
-clear NaOH_pellet_mass % take this out when we finish the testing phase for this component
+clear NaOH_pellet_mass % take this out when we finish the testing phase for this component of the project
