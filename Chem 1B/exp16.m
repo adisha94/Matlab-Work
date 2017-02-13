@@ -10,8 +10,8 @@ NaOH_pellet_mass = input('What was the mass of the pellets?');
 % NaOH_grams = 4.00
 initial_NaOH_Vol = input('What was the initial buret reading?');
 final_NaOH_Vol = input('What was the final buret reading?');
-BuretRead(initial_Vol,final_NaOH_Vol)
-clear initial final
+NetBuretRead(initial_NaOH_Vol,final_NaOH_Vol)
+clear initial_NaOH_Vol final_NaOH_Vol
 
 % Oxalic Acid section
 Oxalic_Acid_Mass = input('Input the mass of the Oxalic acid sample that you acquired');
