@@ -1,3 +1,3 @@
 function[result] = NetBuretRead(initial, final)
-result = round(final - initial,2);
+result = round(Initial - final,2);
 end

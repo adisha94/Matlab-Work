@@ -23,3 +23,8 @@ function[res] = Spread_analysis(high, low, ave)
 %calculates the spread % of the data values
 res = ((high - low) * 100) / ave;
 end
+
+function[output_arg] = percent(input_args)
+result =(input_args) / 100;
+output_arg = result * 100;
+end

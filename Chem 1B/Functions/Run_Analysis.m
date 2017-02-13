@@ -11,7 +11,7 @@ disp('Number of millimoles of oxalic acid')
 % 4 significant figures
 %g --> moles --> millimole
 mmol_OxalAcid = run_Value * (1/oxalic_acid_MW) * (1000/1)
-disp('Number of millimoles of H+ ions in the diprotic solution of the acid')
-mmol_H_Ion = 2*mmol_OxalAcid;
+disp('Number of millimoles of H+ ions in diprotic solution of solute')
+mmol_H_Ions = 2*mmol_OxalAcid; % mmols
 
 end
