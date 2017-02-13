@@ -1,4 +1,4 @@
-function[marker] = Run_Analysis(run_Value)
+function[marker, checker] = Run_Analysis(run_Value)
 % Execute this function when running calculations for our datapoints
 %marker sets the value
 %checker acts as our logical solution
