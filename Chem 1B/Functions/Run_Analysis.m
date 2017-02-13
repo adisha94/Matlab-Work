@@ -14,6 +14,6 @@ disp('1.)')
 mmol_OxalAcid = run_Value * (1/oxalic_acid_MW) * (1000/1)
 disp('2.)')
 disp('#of millimoles of H+ ions in diprotic solution of solute')
-mmol_H_Ions = mmol_OxalAcid; % mmols
+mmol_H_Ions = 2*mmol_OxalAcid; % mmols
 
 end
