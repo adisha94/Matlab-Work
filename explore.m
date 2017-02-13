@@ -1,6 +1,7 @@
 a = true;
-function(result) = somefunction(item)
-result = not(item)
+function[result] = Somefunction(item)
+if (item ~= 2)
+    ~a
 end
-
-clear a;
+result = ~a;
+end
