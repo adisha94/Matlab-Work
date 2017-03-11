@@ -4,5 +4,3 @@ t_elapsed = [66 95 248 493]; % time elapsed for reaction to reach equivalene poi
 R = 8.314; % gas constant
 
 ( log(2) / (1/355.5) - (1/327.5) ) * R;
-Ea = -ans
-A = ; % Arrehnius constant
