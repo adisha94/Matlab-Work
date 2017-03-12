@@ -1,5 +1,8 @@
 R2
 %pressure equation
-V = 10.0;
-T = 
+V = input('What is the Volume?')
+T = input('What is the temperature?')
+Keq = 
+R2;
 P = (R2*T / V)
+
