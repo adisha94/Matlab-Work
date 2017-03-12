@@ -7,7 +7,7 @@ K2C2O7_MW = 280; % chromium compound
 KMnO4_MW = 158.00; % Potassium Permagnate
 %  flag = false
 
-
+%% Pure Compounds (Elemental)
 H_MW = 1.00; % Hydrogen
 C_MW = 12.00; % Carbon
 O2_MW = 32.00; % Molecular Oxygen
