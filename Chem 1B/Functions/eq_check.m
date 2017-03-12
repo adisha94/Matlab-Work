@@ -7,4 +7,6 @@ function[check] = eq_check()
 %If the value of Keq is less \than 1, then we know that the reaction favors
 %the reactants
 
+%If the value of Kew is equal to 1, then we know that the reaction is truly
+% in equilibrium
 end
