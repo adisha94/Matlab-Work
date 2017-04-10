@@ -16,6 +16,6 @@ clear initial_NaOH_Vol final_NaOH_Vol
 % Oxalic Acid section
 Oxalic_Acid_Mass = input('Input the mass of the Oxalic acid sample that you acquired');
 disp(Oxalic_Acid_Mass)
-%Run_Analysis(Oxalic_Acid_Mass);
+Run_Analysis(Oxalic_Acid_Mass);
 
 clear NaOH_pellet_mass % take this out when we finish the testing phase for this component of the project
