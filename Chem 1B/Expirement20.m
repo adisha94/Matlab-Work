@@ -1,4 +1,3 @@
 pH = input('Insert pH value');
-H = 10^(-pH)
-
-dfjads;af
+H = round(10^(-pH),5) % for the H concentration
+OH = 1.00*10^(-14) / H % for the OH concentration
