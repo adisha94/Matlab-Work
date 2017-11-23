@@ -1,3 +1,0 @@
-pH = input('Ph: ');
-H = 10^(-pH)
-K_w
